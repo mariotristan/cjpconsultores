@@ -24,28 +24,28 @@ pluralizelisttitles = false
 
 # Main menu
 [[menu.main]]
-    name       = "Home"
+    name       = ""
     identifier = "menu.home"
     url        = "/"
     weight     = 1
 
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 1: Default Page"
+#     url        = "/"
+#     weight     = 1
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 2: Application"
+#     url        = "/"
+#     weight     = 2
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 3: Startup"
+#     url        = "/"
+#     weight     = 3
+#     parent     = "menu.home"
 
 # [[menu.main]]
 #     name       = "Option 4: Agency"
@@ -400,10 +400,10 @@ pluralizelisttitles = false
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+    googleMapsApiKey = ""
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "27.462676071326072" 
+    longitude = "-99.49713375034051"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "blue"
@@ -455,7 +455,7 @@ pluralizelisttitles = false
 
     logo = "img/cjp.png"
     logo_small = "img/cjp.png"
-    contact_url = "/contact"
+    contact_url = "/cjpconsultores/contact"
     address = """<p class="text-uppercase"><strong>Calle Anahúac #1618</strong>
         <br>Col. Madero
         <br> Nuevo Laredo, TM 
@@ -473,8 +473,8 @@ pluralizelisttitles = false
 [params.topbar]
     enable = true
     text = """<p class="hidden-sm hidden-xs">Teléfono: 52-867-1963153 | Correo electrónico: contacto@cjpconsultores.com.mx</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      <p class="hidden-md hidden-lg"><a href="tel:+52 867 196 3153" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:contacto@cjpconsultores.com.mx" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 
@@ -506,7 +506,7 @@ pluralizelisttitles = false
     pagination_speed = 1000
 
 [params.features]
-    enable = false
+    enable = true
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
