@@ -456,7 +456,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p> Somos una firma de profesionales dedicados a la asesoría legal, contable, fiscal y de análisis de proyectos de inversión, dedicada en la prestación de servicios legales, administrativos, contables y fiscales, de carácter empresarial, comprometidos con nuestros clientes para darles un soporte que les permita dar solución a sus problemas y prevenir a futuro situaciones de riesgo o pérdidas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2024, CJP Consultores; Todos los derechos reservados."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -531,7 +531,7 @@ pluralizelisttitles = false
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
     title = "EQUIPO"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = ""
 
 [params.see_more]
     enable = false
