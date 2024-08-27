@@ -1,5 +1,6 @@
-baseurl = "https://devcows.github.io/cjpconsultores/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "CJP Cpnsultores"
+baseurl = "https://mariotristan.github.io/cjpconsultores/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+BaseURL = "https://mariotristan.github.io/cjpconsultores/"
+title = "CJP Consultores"
 theme = "hugo-universal-theme"
 themesDir = "themes"
 languageCode = "en-us"
