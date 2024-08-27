@@ -372,31 +372,31 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:+52 867 196 3153"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+# [[menu.topbar]]
+#     weight = 2
+#     name = "GitHub"
+#     url = "https://github.com/devcows/hugo-universal-theme"
+#     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Facebook"
-    url = "http://facebook.com"
+    url = "https://www.facebook.com/ConsultoriaJuridicoProfesional"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+# [[menu.topbar]]
+#     weight = 4
+#     name = "Twitter"
+#     url = "http://twitter.com"
+#     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:contacto@cjpconsultores.com.mx"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -404,7 +404,7 @@ pluralizelisttitles = false
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = ""
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -461,7 +461,7 @@ pluralizelisttitles = false
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    dropdown_mouse_over = false
+    dropdown_mouse_over = true
 
     disabled_logo = false
     logo_text = "CJP Consultores"
@@ -495,7 +495,7 @@ pluralizelisttitles = false
 [params.widgets]
     categories = true
     tags = true
-    search = true
+    search = false
 
 [params.carouselCustomers]
     items = 6
